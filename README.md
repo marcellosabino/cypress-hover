@@ -9,6 +9,15 @@ npm install cypress-hover
 ```
 
 # Usage
+In your `cypress/support/e2e.js` or your `cypress/support/e2e.support.js` file add the following import:
+
+```ts
+import 'cypress-hover';
+```
+
+That's it! You're ready to use `cypress-hover`.
+
+# Examples
 
 ```ts
 cy.get("#popover")
