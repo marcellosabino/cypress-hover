@@ -1,0 +1,25 @@
+{
+  "name": "cypress-hover",
+  "version": "1.0.0",
+  "description": "Enable hover capabilities for Cypress. 🛸",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npx prettier --write . && npx cypress run",
+    "build": "npm t && npm pack"
+  },
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcellocodesllc/cypress-hover.git"
+  },
+  "author": "Marcello Sabino <marcello@marcello.codes>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcellocodesllc/cypress-hover/issues"
+  },
+  "homepage": "https://github.com/marcellocodesllc/cypress-hover#readme",
+  "devDependencies": {
+    "cypress": "^10.0.2",
+    "prettier": "^2.6.2"
+  }
+}

@@ -1,0 +1,30 @@
+<style>
+  .popover {
+    font-weight: bold;
+    font-size: 3rem;
+    color: black;
+  }
+
+  .popover-contents {
+    font-size: 1rem;
+    color: blue;
+  }
+</style>
+<div class="popover">Hover over me!</div>
+
+<script>
+  const popover = document.querySelector(".popover");
+  const popoverContents = document.createElement("div");
+  popoverContents.innerHTML =
+    '<div class="popover-contents">Hello World!</div>';
+  popover.addEventListener("mouseenter", () => {
+    popover.append(popoverContents);
+  });
+  popover.addEventListener("mouseover", () => {
+    popover.append(popoverContents);
+  });
+
+  popover.addEventListener("mouseleave", () => {
+    popoverContents.remove();
+  });
+</script>
