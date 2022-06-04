@@ -1,6 +1,6 @@
 # cypress-hover 🛸
 
-Enable hover capabilities for Cypress 🛸 with zero dependencies! and only `3kb` 💯
+Enable hover capabilities for Cypress 🛸 with zero dependencies! 💯
 
 # Installation
 
