@@ -1,8 +1,9 @@
 {
   "name": "cypress-hover",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enable hover capabilities for Cypress. 🛸",
   "main": "lib/index.js",
+  "keywords": ["cypress", "cypress-io", "ui testing", "cypress-hover", "hover"],
   "scripts": {
     "test": "npx prettier --write . && npx cypress run",
     "build": "npm t && npm pack"
